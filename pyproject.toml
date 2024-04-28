@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ai-agent-scratchpad"
+version = "0.1.0"
+description = ""
+authors = ["Michael <work-trial-2@relevanceai.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.1.16"
+langchain-openai = "^0.1.3"
+notebook = "^7.1.3"
+python-dotenv = "^1.0.1"
+scipy = "^1.13.0"
+tenacity = "^8.2.3"
+tiktoken = "^0.6.0"
+termcolor = "^2.4.0"
+openai = "^1.23.3"
+redis = "^5.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
